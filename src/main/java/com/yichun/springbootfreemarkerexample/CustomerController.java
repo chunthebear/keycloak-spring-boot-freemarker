@@ -1,4 +1,4 @@
-package net.viralpatel.springbootfreemarkerexample;
+package com.yichun.springbootfreemarkerexample;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;

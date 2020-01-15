@@ -1,4 +1,4 @@
-package net.viralpatel.springbootfreemarkerexample;
+package com.yichun.springbootfreemarkerexample;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
