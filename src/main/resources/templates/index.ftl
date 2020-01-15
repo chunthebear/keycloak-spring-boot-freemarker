@@ -75,6 +75,9 @@
 		</table>
 
 	</div>
+<p style="margin-left: 6em;">
+    <a href="/logout">Logout</a>
+</p>
 
 </body>
 </html>

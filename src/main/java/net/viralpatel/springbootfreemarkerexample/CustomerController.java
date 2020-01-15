@@ -1,5 +1,8 @@
 package net.viralpatel.springbootfreemarkerexample;
 
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -35,6 +38,12 @@ public class CustomerController {
 
 		customerService.remove(customerId);
 
+		return "redirect:/";
+	}
+	
+	@GetMapping(path = "/logout")
+	public String logout(HttpServletRequest request) throws ServletException {
+		request.logout();
 		return "redirect:/";
 	}
 

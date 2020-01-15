@@ -13,10 +13,7 @@ public class CustomerService {
 
 	private static List<Customer> customers = new ArrayList<>();
 	static {
-		customers.add(new Customer(101, "Steve", "steve@apple.com", LocalDate.of(1955, 2, 24)));
-		customers.add(new Customer(201, "Bill", "bill@microsoft.com", LocalDate.of(1955, 10, 28)));
-		customers.add(new Customer(301, "Larry", "larry@gmail.com", LocalDate.of(1973, 8, 21)));
-		customers.add(new Customer(401, "Sergey", "sergey@abc.xyz", LocalDate.of(1973, 3, 26)));
+		customers.add(new Customer(101, "someone", "someone@email.com", LocalDate.of(1955, 2, 24)));
 	}
 
 	public List<Customer> findAll() {
