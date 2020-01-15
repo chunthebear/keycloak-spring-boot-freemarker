@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Spring Boot FreeMarker example - viralpatel.net</title>
+<title>Keycloak Spring Boot FreeMarker Project</title>
 
 <link href="/bootstrap/4.0.0-beta/css/bootstrap.min.css"
 	rel="stylesheet">
@@ -19,8 +19,7 @@
 <body>
 
 	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-		<a class="navbar-brand" href="https://www.viralpatel.net">Spring Boot
-			FreeMarker example - viralpatel.net</a>
+		<h3 style="color:white;">Keycloak Spring Boot FreeMarker Project</h3>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#navbarsExampleDefault"
 			aria-controls="navbarsExampleDefault" aria-expanded="false"
